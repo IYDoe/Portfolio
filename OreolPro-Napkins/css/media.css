@@ -1,0 +1,472 @@
+@media (max-width: 1199px) {
+  body {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  /* *Header =============== */
+  .header__img {
+    margin-bottom: 0;
+  }
+  .header__img img {
+    max-width: 206px;
+  }
+  .header__phone a::before {
+    position: absolute;
+  }
+  /* *Intro ================ */
+  .intro__text {
+    max-width: 80%;
+  }
+  /* *Advantages =========== */
+  .advantages__image img {
+    max-width: 458px;
+  }
+  .advantages__text {
+    margin-bottom: 40px;
+  }
+  /* *use ================== */
+  .use {
+    padding-bottom: 70px;
+  }
+  .use-column {
+    margin-bottom: 68px;
+  }
+  .use-column__text {
+    max-width: 550px;
+  }
+  .use-column__image {
+    justify-content: center;
+  }
+  /* *Compare =============== */
+  .compare-column__item {
+    padding-left: 50px;
+  }
+  /* *Price-list ============ */
+  .form__call:before {
+    content: none;
+  }
+  /* *About ================= */
+  .about__list {
+    padding-left: 0px;
+  }
+  .about__text {
+    max-width: 80%;
+    margin-bottom: 40px;
+  }
+  /* *Work =================== */
+  .work__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .work__item {
+    padding-left: 100px;
+    z-index: 5;
+    position: relative;
+  }
+  .work__item::before {
+    top: 20px;
+    left: 30px;
+  }
+  .work__item.item-3 {
+    margin-left: 169px;
+  }
+  .work {
+    padding: 0;
+  }
+  /* *Test =================== */
+  .bg-form--test {
+    margin-bottom: 39px;
+  }
+  .form__call.form__call--test {
+    margin-left: 180px;
+    margin-right: 0;
+  }
+  /* *Footer ================ */
+  .yandex__map {
+    height: 280px;
+    width: 100%;
+  }
+  .footer__map-table {
+    display: block;
+    width: 50%;
+  }
+  .footer__logo img {
+    max-width: 290px;
+  }
+  /* *Success ======================= */
+  .success__text {
+    max-width: 70%;
+  }
+}
+@media (max-width: 991px) {
+  /* *Header ===================== */
+  .header__phone a::before {
+    content: url(../images/icons/icon-call.png);
+    position: absolute;
+  }
+  /* *Compare =================== */
+  .compare__button a {
+    padding: 15px 30px;
+  }
+  .compare__text-link {
+    font-size: 19px;
+  }
+  .compare-column {
+    max-width: 100%;
+  }
+  /* *Price-list ============== */
+  .form__call {
+    margin-right: 0;
+  }
+  /* *Work =================== */
+  .work__content {
+    max-width: 100%;
+  }
+  .work__item::before {
+    top: 27px;
+    left: 30px;
+  }
+  /* *Test ==================== */
+  .form__buttons.form__buttons--test {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .form__call.form__call--test {
+    margin-left: 0px;
+    margin-right: 0;
+  }
+  .form__buttons.form__buttons--test .form__button {
+    margin-bottom: 10px;
+  }
+  .error__num {
+    line-height: 260px;
+  }
+}
+@media (max-width: 767px) {
+  /* *Header ============= */
+  .header {
+    padding-top: 24px;
+    margin-bottom: 50px;
+  }
+  .header__img img {
+    max-width: 140px;
+  }
+  .header__phone {
+    display: none;
+  }
+  .header__phone-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .header__phone-mobile .phone-call {
+    margin-right: 0;
+  }
+  /* *Intro =============== */
+  .intro {
+    padding: 0 0 70px 0;
+  }
+  .intro__title {
+    font-size: 23px;
+  }
+  .intro__icons-img {
+    height: 54px;
+    width: 54px;
+  }
+  .main__button a {
+    padding: 15px 30px;
+  }
+  .main__button a::before {
+    content: none;
+  }
+  .main__button {
+    margin: 10px 0 0 0;
+  }
+  /* *Advantages ========== */
+  .advantages {
+    margin: 70px 0;
+  }
+  .advantages__image img {
+    top: -20px;
+    left: 0;
+    height: auto;
+    width: 100%;
+  }
+  /* *use ================== */
+  .use {
+    padding: 70px 0;
+  }
+  .use__title {
+    margin-bottom: 60px;
+  }
+
+  .use-column__image {
+    display: none;
+  }
+  .use-column__text {
+    max-width: 100%;
+  }
+  .use-column {
+    margin-bottom: 0px;
+    padding-bottom: 32px;
+  }
+  .use-column__title {
+    font-size: 18px;
+  }
+  /* *Compare ================== */
+  .compare {
+    padding: 70px 0;
+  }
+  .compare__text-link {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .compare__button {
+    text-align: center;
+  }
+  .compare-column__item {
+    padding-left: 45px;
+  }
+  /* *Price-list =============== */
+  .price-list {
+    padding: 70px 0;
+  }
+  .bg-form {
+    border-radius: 0;
+    padding: 25px;
+    margin-bottom: 40px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+  }
+  .bg-form:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    background-color: #fff;
+    top: 0;
+    left: -135px;
+    z-index: -1;
+  }
+  .bg-form:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    background-color: #fff;
+    top: 0;
+    right: -135px;
+    z-index: -1;
+  }
+  .form__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .form__button {
+    margin-bottom: 15px;
+  }
+  /* *About ==================== */
+  .about {
+    padding: 70px 0;
+  }
+  .about:before {
+    content: none;
+  }
+
+  /* *Work ===================== */
+  .work {
+    padding: 70px 0;
+  }
+  .work__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .work__item {
+    padding: 20px 20px 20px 80px;
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  .work__item::before {
+    top: 35px;
+    left: 0px;
+  }
+  /* *Question ================= */
+  .question {
+    margin: 70px 0;
+  }
+  /* *Test ================= */
+  .test {
+    padding: 70px 0;
+  }
+  .test__image {
+    display: none;
+  }
+  /* *Footer =================== */
+  .yandex__map {
+    height: 300px;
+  }
+  .footer {
+    background: url(../images/background/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0 0 0;
+    position: relative;
+  }
+  .footer__map-table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 0px;
+  }
+  .footer__contacts {
+    margin-bottom: 8px;
+  }
+  .footer__content {
+    margin-bottom: 40px;
+  }
+  .footer__item {
+    margin-bottom: 33px;
+  }
+  /* *404 error ================== */
+  .error {
+    max-width: 326px;
+  }
+  .error__num {
+    font-size: 190px;
+    margin-bottom: 55px;
+    line-height: 260px;
+    line-height: 125px;
+  }
+  .error__title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .error__text {
+    color: #636a6a;
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+  .error__btn a {
+    padding: 15px 80px 15px 30px;
+  }
+  .error__btn a:before {
+    top: 18px;
+    right: 30px;
+  }
+  /* *Success =================== */
+  .success__text {
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  /* *Modal ===================== */
+  .modal-content {
+    width: 478px;
+    height: 594px;
+  }
+}
+@media (max-width: 575px) {
+  /* *Title ====================== */
+  .title:after {
+    width: 240px;
+  }
+  /* *Intro ===================== */
+  .intro__icons-img {
+    height: 40px;
+    width: 40px;
+  }
+  .intro__icons {
+    font-size: 14px;
+  }
+  .main__button a {
+    font-size: 14px;
+  }
+  /* *Question ================== */
+  .accordion__description {
+    padding: 0px 30px;
+  }
+  /* *Footer ===================== */
+  .footer__logo img {
+    max-width: 250px;
+  }
+  /* *404 Error ================== */
+  .error {
+    max-width: 326px;
+    text-align: center;
+  }
+  .error__num {
+    font-size: 120px;
+    margin-bottom: 30px;
+  }
+  .error__title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    line-height: 35px;
+  }
+  /* *Success =================== */
+  .success__title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    line-height: 30px;
+  }
+  /* *Modal ===================== */
+  .form__group textarea {
+    height: 60px;
+    padding-top: 30px;
+  }
+  .form__buttons.form__buttons--popup {
+    margin-top: 0px;
+  }
+  .modal-content {
+    height: 530px;
+    width: 100%;
+  }
+  .modal__title {
+    font-size: 20px;
+  }
+  .form__group {
+    margin-bottom: 20px;
+  }
+  .form__group input {
+    font-size: 16px;
+  }
+  .form__group label {
+    margin-bottom: 5px;
+  }
+  .fancybox-content {
+    padding: 8px;
+  }
+}
